@@ -5,7 +5,7 @@ exports.data = {
 exports.render = function(data) {
 
 	return `
-${ data.piquettes.map( piquette => {
+${ data.piquettes.reverse().map( piquette => {
 
 	const [ yearNum, monthNum ] = piquette.month.split( '-' );
 	const monthName = [
