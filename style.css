@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: system-ui, sans-serif;
+}
+
+article {
+	margin: 3em;
+}
+
+time {
+	font-variant: all-small-caps;
+	letter-spacing: 0.1ch;
+}
+
+img.hero {
+	border-radius: 50%;
+}

@@ -7,6 +7,7 @@ return `
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<title>${ data.title ? data.title + ' – ' : '' }Piquette of the Month Club</title>
+	<link rel="stylesheet" href="/style.css" />
 </head>
 <body>
 	${ data.content }

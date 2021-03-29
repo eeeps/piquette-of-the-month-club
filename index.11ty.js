@@ -1,5 +1,5 @@
 exports.data = {
-	"layout": "index.11ty.js"
+	"layout": "index"
 };
 
 exports.render = function(data) {
