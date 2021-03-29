@@ -6,6 +6,10 @@ html {
 	font-family: system-ui, sans-serif;
 }
 
+h2 > small {
+	display: block;
+}
+
 article {
 	margin: 3em;
 }
