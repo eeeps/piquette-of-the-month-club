@@ -1,0 +1,70 @@
+[
+	{
+		"month": "2020-12",
+		"winery": "Swick Wines",
+		"winery_url": "https://swickwines.com",
+		"name": "Piquette 1.0",
+		"rating": 3,
+		"pull_quote": "It does’t taste like anything?",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$20 for a 750ml bottle",
+			"ABV": "8.7%",
+			"Region": "Columbia Valley (Oregon)",
+			"Grapes": "Verdelho (50%), Sauvignon Blanc (25%), Sémillon (25%)"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1616997830/piquettes/swick-1.0.jpg"
+		]
+	},
+	{
+		"month": "2021-01",
+		"winery": "American Wine Project",
+		"winery_url": "https://americanwineproject.com",
+		"name": "Light Verse",
+		"subtitle": "Piquette Blanche",
+		"rating": 5,
+		"pull_quote": "It’s lovely",
+		"facts": {
+			"Vintage": "2019",
+			"Price": "$13 for a 750ml bottle",
+			"ABV": "7%",
+			"Region": "The Midwest"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1610833502/piquettes/light_verse.jpg"
+		]
+	},
+	{
+		"month": "2021-02",
+		"winery": "The Marginy",
+		"winery_url": "https://themarigny.com",
+		"name": "Piquette",
+		"subtitle": "“Wine Like Beverage”",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$15 per 750ml bottle",
+			"ABV": "4.2%",
+			"Region": "Willamette Valley"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1616997927/piquettes/marginy.jpg"
+		]
+	},
+	{
+		"month": "2021-03",
+		"winery": "The Austin Winery",
+		"winery_url": "https://www.theaustinwinery.com",
+		"name": "Piquette",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$18 per four-pack of cans",
+			"ABV": "4%",
+			"Region": "Texas",
+			"Grapes": "Tempranillo, Montepulciano, Cider"
+		},
+		"photos": [
+		
+		]
+	}
+]
