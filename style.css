@@ -1,8 +1,8 @@
 html {
-	--green: hsl( 169deg 22% 58% );
+	--green: hsl( 54deg 57% 55% );
 	--black: hsl( 169deg 22% 16% );
 	--gray: rgba( 0%, 0%, 0%, 0.25 );
-	--blue: hsl( 218deg 40% 50% );
+	--blue: hsl( 218deg 61% 48% );
 	--yellow: hsl( 61deg 100% 50% );
 	--white: white;
 	background-color: var(--green);
