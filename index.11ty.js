@@ -31,7 +31,7 @@ ${ data.piquettes.reverse().map( piquette => {
 	    pullquote = '';
 
 	header = `
-<p><time class="month" datetime="${ piquette.month }">${ prettyDate }</time></p>
+<p class="month"><time datetime="${ piquette.month }">${ prettyDate }</time></p>
 <h2>
 	<small class="winery">${ piquette.winery }</small>
 	<span class="name">${ piquette.name }</span>
@@ -50,12 +50,14 @@ ${ data.piquettes.reverse().map( piquette => {
 
 		let definitions = Object.keys( piquette.facts ).map( k => {
 			return `
-	<dt>${ k }</dt>
-	<dd>${ piquette.facts[ k ] }</dd>
+	<div class="fact">
+		<dt>${ k }</dt>
+		<dd>${ piquette.facts[ k ] }</dd>
+	</div>
 `;
 		} );
 		
-		facts = `<dl>
+		facts = `<dl class="facts">
 ${ definitions.join("\n") }
 </dl>`;
 		

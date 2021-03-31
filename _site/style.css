@@ -1,7 +1,7 @@
 html {
 	--green: hsl( 169deg 22% 58% );
 	--black: hsl( 169deg 22% 16% );
-	--gray: hsl( 169deg 11% 8% );
+	--gray: rgba( 0%, 0%, 0%, 0.25 );
 	--blue: hsl( 218deg 40% 50% );
 	--yellow: hsl( 61deg 100% 50% );
 	--white: white;
@@ -76,16 +76,22 @@ https://wpt.fyi/results/css/css-text-decor */
 
 article {
 	margin: 3em;
+	border-top: 1px solid var(--gray);
 }
 
 .month {
+	margin-top: -0.75em;
+	text-align: center;
+}
+
+.month time {
 	font-variant: all-small-caps;
 	letter-spacing: 0.1ch;
 	padding: 0.2em 0.55em 0.35em 0.55em;
 	border-radius: 1ch;
 	background-color: white;
-	--x-offset: -0.25rem;
-	--y-offset: 0.25rem;
+	--x-offset: -0.2rem;
+	--y-offset: 0.2rem;
 	box-shadow: 
 		var(--x-offset)
 		var(--y-offset)
@@ -103,4 +109,33 @@ article {
 
 img.hero {
 	border-radius: 50%;
+}
+
+.facts dt, .facts dd {
+	display: inline;
+	margin: 0;
+}
+
+.facts {
+	display: table;
+	width: 100%;
+	max-width: 60ch;
+}
+
+.facts div {
+	display: table-row;
+	border-collapse: collapse;
+}
+.facts dt, .facts dd {
+	display: table-cell;
+	padding: 0.5em 0.5em 0.6em 0.5em;
+	border-top: 1px solid var(--gray);
+}
+.fact:last-child dt, .fact:last-child dd {
+	border-bottom: 1px solid var(--gray);
+}
+
+.facts dt {
+	font-weight: 900;
+	width: 40%;
 }
