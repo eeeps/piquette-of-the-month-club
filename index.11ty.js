@@ -31,10 +31,10 @@ ${ data.piquettes.reverse().map( piquette => {
 	    pullquote = '';
 
 	header = `
-<p><time datetime="${ piquette.month }">${ prettyDate }</time></p>
+<p><time class="month" datetime="${ piquette.month }">${ prettyDate }</time></p>
 <h2>
 	<small class="winery">${ piquette.winery }</small>
-	${ piquette.name }
+	<span class="name">${ piquette.name }</span>
 	${ piquette.subtitle && piquette.subtitle !== "" ? `<small class="subtitle">${ piquette.subtitle }</small>` : "" }
 </h2>`;
 

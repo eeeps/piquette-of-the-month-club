@@ -1,22 +1,104 @@
+html {
+	--green: hsl( 169deg 22% 58% );
+	--black: hsl( 169deg 22% 16% );
+	--gray: hsl( 169deg 11% 8% );
+	--blue: hsl( 218deg 40% 50% );
+	--yellow: hsl( 61deg 100% 50% );
+	--white: white;
+	background-color: var(--green);
+	color: var(--black);
+}
+
 * {
 	box-sizing: border-box;
 }
 
 html {
 	font-family: system-ui, sans-serif;
+	color: var(--black);
 }
 
 h2 > small {
 	display: block;
 }
 
+.name {
+	font-size: 2em;
+}
+
+.name, .subtitle, .month {
+	/* outlined drop shadow... */
+	--x-offset: min( -0.0625em, -1px );
+	--y-offset: max( 0.0625em, 1px );
+	--stroke: max( 0.025em, 1px );
+	--background-color: var(--green);
+	--stroke-color: var(--blue);
+}
+
+.name, .subtitle {
+	color: white;
+
+	text-shadow: 
+
+		var(--x-offset)
+		var(--y-offset)
+		0px
+		var(--background-color), 
+
+		calc( var(--x-offset) - var(--stroke) )
+		calc( var(--y-offset) + var(--stroke) )
+		0px
+		var(--stroke-color);
+}
+/* for browsers that support spread, added in
+https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
+currently: none browsers! none of them!
+I can't even find a test: 
+https://wpt.fyi/results/css/css-text-decor */
+@supports ( text-shadow: 1px 1px 1px 1px black ) {
+	.name, .subtitle {
+		text-shadow:
+
+		var(--x-offset)
+		var(--y-offset)
+		0px
+		0px
+		var(--background-color), 
+
+		var(--x-offset) 
+		var(--y-offset)
+		0px
+		var(--stroke)
+		var(--stroke-color);
+
+	}
+}
+
 article {
 	margin: 3em;
 }
 
-time {
+.month {
 	font-variant: all-small-caps;
 	letter-spacing: 0.1ch;
+	padding: 0.2em 0.55em 0.35em 0.55em;
+	border-radius: 1ch;
+	background-color: white;
+	--x-offset: -0.25rem;
+	--y-offset: 0.25rem;
+	box-shadow: 
+		var(--x-offset)
+		var(--y-offset)
+		0px
+		0px
+		var(--background-color), 
+
+		var(--x-offset) 
+		var(--y-offset)
+		0px
+		var(--stroke)
+		var(--stroke-color);
+	
 }
 
 img.hero {
