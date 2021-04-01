@@ -17,6 +17,7 @@ html {
 html {
 	font-family: system-ui, sans-serif;
 	color: var(--black);
+	font-size: calc(1em + 0.5vmin);
 }
 
 body {
@@ -135,6 +136,9 @@ article {
 
 img.hero {
 	border-radius: 50%;
+	width: 100%;
+	height: auto;
+	max-width: 20em;
 }
 
 .facts dt, .facts dd {
