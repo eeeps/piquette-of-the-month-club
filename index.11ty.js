@@ -64,7 +64,8 @@ ${ definitions.join("\n") }
 	}
 
 	return `
-<article>
+<article
+	style="--bg: ${ piquette.background_color };">
 ${ header }
 ${ image }
 ${ facts }

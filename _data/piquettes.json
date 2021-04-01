@@ -15,7 +15,9 @@
 		},
 		"photos": [
 			"https://res.cloudinary.com/eeeps/image/upload/v1616997830/piquettes/swick-1.0.jpg"
-		]
+		],
+		"background_color": "hsl(25deg 57% 55%)",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	},
 	{
 		"month": "2021-01",
@@ -33,7 +35,9 @@
 		},
 		"photos": [
 			"https://res.cloudinary.com/eeeps/image/upload/v1610833502/piquettes/light_verse.jpg"
-		]
+		],
+		"background_color": "hsl(54deg 57% 55%)",
+		"accent_color": "hsl(218deg 61% 48%)"
 	},
 	{
 		"month": "2021-02",
@@ -49,7 +53,9 @@
 		},
 		"photos": [
 			"https://res.cloudinary.com/eeeps/image/upload/v1616997927/piquettes/marginy.jpg"
-		]
+		],
+		"background_color": "#72b3ae",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	},
 	{
 		"month": "2021-03",
@@ -65,6 +71,8 @@
 		},
 		"photos": [
 		
-		]
+		],
+		"background_color": "#e47b7b",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
