@@ -28,7 +28,7 @@ ${ data.piquettes.reverse().map( piquette => {
 	    image = '',
 	    facts = '',
 	    rating = '',
-	    pullquote = '';
+	    pullQuote = '';
 
 	header = `
 <p class="month"><time datetime="${ piquette.month }">${ prettyDate }</time></p>
@@ -62,6 +62,22 @@ ${ definitions.join("\n") }
 </dl>`;
 		
 	}
+	
+	if ( piquette.rating && piquette.rating >= 0 && piquette.rating <= 5 ) {
+		const filled = ( piquette.rating > 0
+		                 ? "<span class='filled'>★</span>".repeat( piquette.rating )
+		                 : '' ),
+		      empty = ( piquette.rating < 5
+		                ? "<span class='empty'>☆</span>".repeat( 5 - piquette.rating )
+		                : '' ),
+		      stars = `<span class="stars">${ filled }${ empty }</span>`;
+		      description = `${ piquette.rating } out of 5 stars`;
+		rating = `<div class="rating" aria-label="${ description }">${ stars }</div>`;
+	}
+	
+	if ( piquette.pull_quote && piquette.pull_quote != '' ) {
+		pullQuote = `<blockquote class="pullQuote">${ piquette.pull_quote }</blockquote>`;
+	}
 
 	return `
 <article
@@ -70,7 +86,7 @@ ${ header }
 ${ image }
 ${ facts }
 ${ rating }
-${ pullquote }
+${ pullQuote }
 </article>
 `;
 

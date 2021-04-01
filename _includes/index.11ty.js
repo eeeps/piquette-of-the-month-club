@@ -10,7 +10,7 @@ exports.render = function(data) {
 ${ data.content }
 </main>
 <footer>
-<p>For Britt, with ❤️.</p>
+<p>For Britt, with ❤️</p>
 </footer>
 
 `;

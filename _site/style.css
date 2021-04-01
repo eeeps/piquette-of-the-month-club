@@ -1,10 +1,11 @@
 html {
 	--bg: hsl( 54deg 57% 55% );
 	--black: hsl( 169deg 22% 16% );
-	--gray: rgba( 0%, 0%, 0%, 0.25 );
+	--gray: rgba( 10%, 10%, 10%, 0.33 );
 	--blue: hsl( 218deg 61% 48% );
 	--yellow: hsl( 61deg 100% 50% );
 	--white: white;
+	--stroke: max( 0.025em, 1px );
 	background-color: rgb(157 158 138);
 	color: var(--black);
 	overflow-x: hidden;
@@ -53,7 +54,6 @@ h2 > small {
 	/* outlined drop shadow... */
 	--x-offset: min( -0.0625em, -1px );
 	--y-offset: max( 0.0625em, 1px );
-	--stroke: max( 0.025em, 1px );
 	--background-color: var(--bg);
 	--stroke-color: var(--blue);
 }
@@ -166,6 +166,52 @@ img.hero {
 	width: 40%;
 }
 
+.rating {
+	text-align: center;
+	margin: 3rem 0 1rem 0;
+}
+
+.stars {
+	font-family: Georgia, serif;
+	font-size: 3.75rem;
+	letter-spacing: 0.25ch;
+	-webkit-text-stroke: var(--stroke) var(--gray);
+}
+
+.stars .filled {
+	color: var(--yellow);
+}
+
+.stars .empty {
+	visibility: hidden;
+	overflow: hidden;
+}
+.stars .empty:after {
+	content: "★";
+	color: var( --bg );
+	visibility: visible;
+	margin-left: -1.25em;
+}
+
+.pullQuote {
+	text-align: center;
+	font-size: 3em;
+	font-family: "Baskerville", georgia, serif;
+	margin: 1rem 0;
+	line-height: 0.8625;
+}
+
+.pullQuote:before {
+	content: "“";
+	margin-left: -1ch;
+}
+.pullQuote:after {
+	content: "”";
+	margin-right: -1ch;
+}
+.pullQuote:before, .pullQuote:after {
+	font-size: 1.25em;
+}
 
 footer {
 	background-color: var(--black);
