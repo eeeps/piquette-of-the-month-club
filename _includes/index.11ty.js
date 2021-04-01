@@ -9,6 +9,9 @@ exports.render = function(data) {
 <main>
 ${ data.content }
 </main>
+<footer>
+<p>For Britt, with ❤️.</p>
+</footer>
 
 `;
 };
