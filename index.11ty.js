@@ -25,13 +25,16 @@ ${ data.piquettes.reverse().map( piquette => {
 		prettyDate = `${ monthName } ${ yearNum }`;
 
 	let header = '',
+	    title = '',
 	    image = '',
 	    facts = '',
 	    rating = '',
 	    pullQuote = '';
 
 	header = `
-<p class="month"><time datetime="${ piquette.month }">${ prettyDate }</time></p>
+<p class="month"><time datetime="${ piquette.month }">${ prettyDate }</time></p>`
+
+	title = `
 <h2>
 	<small class="winery">${ piquette.winery }</small>
 	<span class="name">${ piquette.name }</span>
@@ -80,13 +83,16 @@ ${ definitions.join("\n") }
 	}
 
 	return `
-<article
+<article class="piquette"
 	style="--bg: ${ piquette.background_color };">
 ${ header }
 ${ image }
+<div class="text">
+${ title }
 ${ facts }
 ${ rating }
 ${ pullQuote }
+</div>
 </article>
 `;
 
