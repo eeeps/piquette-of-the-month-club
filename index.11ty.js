@@ -5,7 +5,7 @@ exports.data = {
 exports.render = function(data) {
 
 	return `
-${ data.piquettes.reverse().map( piquette => {
+${ data.piquettes.reverse().map( ( piquette, index ) => {
 
 	const [ yearNum, monthNum ] = piquette.month.split( '-' );
 	const monthName = [
@@ -47,6 +47,7 @@ ${ data.piquettes.reverse().map( piquette => {
 	class="hero"
 	src="${ piquette.photos[ 0 ].replace(/\/v\d{10}\//, '/c_fill,ar_1,g_auto,f_auto,q_auto,w_auto:120:600/') }"
 	sizes="(min-width: 1333px) 400px, (min-width: 840px) calc(45.73vw - 209px), (min-width: 671px) calc(50vw - 165px), (min-width: 575px) calc(12.63vw + 85px), calc(49.64vw - 8px)"
+	${ index > 0 ? 'loading="lazy"' : ''}
 />`
 	}
 
