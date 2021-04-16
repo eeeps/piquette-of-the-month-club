@@ -46,6 +46,7 @@ ${ data.piquettes.reverse().map( piquette => {
 <img
 	class="hero"
 	src="${ piquette.photos[ 0 ].replace(/v\d{10}/, '/c_fill,h_500,w_500,g_auto,f_auto,q_auto/') }"
+	sizes="15em"
 />`
 	}
 
