@@ -1,6 +1,6 @@
 # a path:
 /
   # headers for that path:
-  Accept-CH: CH-DPR, CH-Width
+  Accept-CH: CH-DPR, CH-Width, DPR, Width
   Permissions-Policy: ch-dpr=(self "https://res.cloudinary.com"), ch-width=(self "https://res.cloudinary.com")
   Feature-Policy: ch-dpr https://res.cloudinary.com 'self'; ch-width https://res.cloudinary.com 'self';
