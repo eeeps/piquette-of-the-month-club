@@ -1,5 +1,5 @@
 # a path:
-/index.html
+/
   # headers for that path:
   Accept-CH: CH-DPR, CH-Width
   Permissions-Policy: ch-dpr=(self "https://res.cloudinary.com"), ch-width=(self "https://res.cloudinary.com")
