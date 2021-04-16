@@ -64,15 +64,33 @@
 		"name": "Piquette",
 		"facts": {
 			"Vintage": "2020",
-			"Price": "$18 per four-pack of cans",
+			"Price": "$18 per four-pack of 12oz cans (but oops! They shipped us 750ml bottles!)",
 			"ABV": "4%",
 			"Region": "Texas",
 			"Grapes": "Tempranillo, Montepulciano, Cider"
 		},
 		"photos": [
-		
+			"https://res.cloudinary.com/eeeps/image/upload/v1618598838/piquettes/austin-winery"
 		],
 		"background_color": "#e47b7b",
+		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-04",
+		"winery": "Redolent Wine",
+		"winery_url": "https://www.redolentwine.com/",
+		"name": "Tiquette’s Piquette",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$15 per 750ml bottle",
+			"ABV": "7%",
+			"Region": "Oregon",
+			"Grapes": "50% Oregon Pinot Noir, 50% Washington Nebbiolo"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1618599482/piquettes/redolent-tiquettes"
+		],
+		"background_color": "#75a7d8",
 		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
