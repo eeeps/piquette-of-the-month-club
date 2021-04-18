@@ -4,8 +4,6 @@
 		"winery": "Swick Wines",
 		"winery_url": "https://swickwines.com",
 		"name": "Piquette 1.0",
-		"rating": 3,
-		"pull_quote": "It doesn’t taste like anything?",
 		"facts": {
 			"Vintage": "2020",
 			"Price": "$20 for a 750ml bottle",
@@ -25,8 +23,6 @@
 		"winery_url": "https://americanwineproject.com",
 		"name": "Light Verse",
 		"subtitle": "Piquette Blanche",
-		"rating": 5,
-		"pull_quote": "It’s lovely",
 		"facts": {
 			"Vintage": "2019",
 			"Price": "$13 for a 750ml bottle",
