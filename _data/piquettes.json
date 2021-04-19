@@ -106,5 +106,22 @@
 		],
 		"background_color": "#43b78d",
 		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-06",
+		"winery": "Troon Vineyards",
+		"winery_url": "http://www.troonvineyard.com",
+		"name": "Piquette!",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$25 per 750ml bottle",
+			"ABV": "10.5%",
+			"Region": "Applegate Valley, Oregon"
+		},
+		"photos": [
+			
+		],
+		"background_color": "#d97db1",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
