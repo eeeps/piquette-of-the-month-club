@@ -88,5 +88,23 @@
 		],
 		"background_color": "#75a7d8",
 		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-05",
+		"winery": "American Wine Project",
+		"winery_url": "https://americanwineproject.com",
+		"name": "Wit &amp; Wisdom",
+		"subtitle": "Piquette Rouge",
+		"facts": {
+			"Vintage": "2019",
+			"Price": "$13 for a 750ml bottle",
+			"ABV": "7%",
+			"Region": "The Midwest"
+		},
+		"photos": [
+			
+		],
+		"background_color": "#d97db1",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
