@@ -59,10 +59,12 @@ h2 > small {
 	display: block;
 }
 .winery {
-	margin-bottom: -0.5em;
+	margin-bottom: 0;
+	line-height: 1;
 }
 .name {
 	font-size: 2em;
+	line-height: 1;
 }
 
 .name, .subtitle, .month {
