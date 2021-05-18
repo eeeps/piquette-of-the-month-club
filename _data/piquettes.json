@@ -102,7 +102,7 @@
 			"Region": "The Midwest"
 		},
 		"photos": [
-			
+			"https://res.cloudinary.com/eeeps/image/upload/v1621375776/piquettes/wit-and-wisdom"
 		],
 		"background_color": "#43b78d",
 		"accent_color": "hsl( 218deg 61% 48% )"
