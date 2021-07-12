@@ -119,9 +119,26 @@
 			"Region": "Applegate Valley, Oregon"
 		},
 		"photos": [
-			
+			"https://res.cloudinary.com/eeeps/image/upload/v1626117402/piquettes/troons"
 		],
 		"background_color": "#d97db1",
+		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-07",
+		"winery": "Wild Arc Farm",
+		"winery_url": "https://www.wildarcfarm.com",
+		"name": "Orange & Rosato Piquettes",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$30 per 4-pack 375ml cans",
+			"ABV": "7%",
+			"Region": "Hudson Valley, New York"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1626117407/piquettes/wild-arc"
+		],
+		"background_color": "#e08062",
 		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
