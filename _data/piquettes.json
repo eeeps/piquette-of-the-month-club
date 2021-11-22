@@ -140,5 +140,81 @@
 		],
 		"background_color": "#e08062",
 		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-08",
+		"winery": "pét project",
+		"winery_url": "https://www.petprojectwines.com/",
+		"name": "piquette",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$10 per 350ml short bottle",
+			"ABV": "7.5%",
+			"Region": "Columbia Valley",
+			"Vineyard": "Arete Vineyard",
+			"Grapes": "Gewürztraminer"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1637589834/piquettes/pet-project"
+		],
+		"background_color": "#44a8bb",
+		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-09",
+		"winery": "Terah Wine Co.",
+		"winery_url": "https://www.terahwineco.com/",
+		"name": "Agua Fresca de Pétillant Naturel",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$22 per 750ml bottle",
+			"ABV": "7%",
+			"Region": "Sierra Foothills",
+			"Vineyard": "Rorick Heritage Vineyard",
+			"Grapes": "Tempranillo"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1637590305/piquettes/terah-tempranillo"
+		],
+		"background_color": "#b880ca",
+		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-10",
+		"winery": "Terah Wine Co.",
+		"winery_url": "https://www.terahwineco.com/",
+		"name": "Agua Fresca de Merlot",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$22 per 750ml bottle",
+			"ABV": "7%",
+			"Region": "Sierra Foothills",
+			"Vineyard": "Happy Canyon",
+			"Grapes": "Merlot"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1637590300/piquettes/terah-merlot"
+		],
+		"background_color": "#a689d5",
+		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-11",
+		"winery": "Gotsa",
+		"winery_url": "https://gotsawines.com/en/",
+		"name": "Concious Exit",
+		"facts": {
+			"Vintage": "2019",
+			"Price": "$21 per 750ml bottle",
+			"ABV": "10%",
+			"Region": "Asureti, Kvemo Kartli, Georgia",
+			"Vineyard": "Gotsa Family Vineyard",
+			"Grapes": "Saperavi, Chinuri"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1637590300/piquettes/conscious-exit"
+		],
+		"background_color": "#73a75d",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
