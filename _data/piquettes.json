@@ -216,5 +216,23 @@
 		],
 		"background_color": "#73a75d",
 		"accent_color": "hsl( 218deg 61% 48% )"
+	},
+	{
+		"month": "2021-12",
+		"winery": "Wild Arc Farm",
+		"winery_url": "https://www.wildarcfarm.com",
+		"name": "Traminette Piquette",
+		"facts": {
+			"Vintage": "2020",
+			"Price": "$15 per 750ml bottle",
+			"ABV": "7%",
+			"Region": "Finger Lakes, New York",
+			"Grapes": "Traminette"
+		},
+		"photos": [
+			"https://res.cloudinary.com/eeeps/image/upload/v1640815947/piquettes/i4oey40e0hytfjwmttxh"
+		],
+		"background_color": "#b68e1f",
+		"accent_color": "hsl( 218deg 61% 48% )"
 	}
 ]
